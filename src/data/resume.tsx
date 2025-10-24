@@ -4,15 +4,26 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Rafael Dizon",
   initials: "RD",
-  url: "https://dillion.io",
+  url: "#",
   location: "Pampanga, Philippines",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "#",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Frontend Developer. I build modern web apps and turn ideas into useful, real-world products.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
-  skills: ["React", "Next.js", "Typescript", "SQL"],
+    "I’m a self-taught developer who builds modern full-stack web applications that deliver real value to users. I’ve worked on a few freelance projects, creating practical solutions for real-world needs, but my true focus is on the frontend—crafting fast, responsive, and visually polished interfaces using React, Next.js, and TypeScript.",
+  avatarUrl: "/me.jpg",
+  skills: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Typescript",
+    "SQL",
+    "Supabase",
+    "Firebase",
+    "REST API",
+  ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "hello@example.com",
@@ -27,30 +38,30 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/rafael-roy-dizon-417aa5118",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/porkdumpling_",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://www.youtube.com/@rafaeldizon613",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:kuhaku.blank.rd@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -83,37 +94,39 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "M'Sweets",
+      title: "M'Sweets (In Development ⚙️)",
       href: "https://msweets.vercel.app",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "In Development ⚙️",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "A sleek sweets ordering website where customers can explore delicious treats, customize their orders, and choose between pickup or delivery. Designed to provide a smooth and delightful online ordering experience for real customers.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Supabase",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
         "Magic UI",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://msweets.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/rflrydzn/msweets",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image:
+        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Screenshot%202025-10-23%20at%2011.55.12%20PM.png",
+      video: "",
     },
     {
       title: "QuizMaster",
       href: "https://quizmaster-rflrydzn.vercel.app/",
-      dates: "June 2023 - Present",
       active: true,
       description:
         "Developed a full-stack Quizlet-style app with AI-powered quiz generation using the Gemini API. Enables users to create and study flashcards, practice sets, and quizzes with an intuitive UI and secure authentication.",
@@ -139,7 +152,7 @@ export const DATA = {
         },
         {
           type: "Screenshots",
-          href: "https://github.com/rflrydzn/quiz-gen",
+          href: "/screenshots/quizmaster",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -148,66 +161,66 @@ export const DATA = {
         "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "G-Cam - Smart GCash Assistance System",
+      href: "https://gcam.vercel.app",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "A web-integrated IoT system using ESP32-CAM, Firebase, Next.js, and Pushover API. It captures handwritten GCash transaction details, sends them as notifications, and displays real-time status updates on both the web app and a TFT screen, enabling seamless remote transaction monitoring.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Firebase",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Python",
+        "Google Gemini API",
+        "C++ (Arduino)",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://gcam.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/rflrydzn/gcam",
           icon: <Icons.github className="size-3" />,
         },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
         {
-          type: "Website",
-          href: "https://automatic.chat",
+          type: "Screenshots",
+          href: "/screenshots/gcam",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design%20(1).mp4",
+    },
+    {
+      title: "Apnea-lyze",
+      href: "https://github.com/rflrydzn/apnealyze-pro",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "A full-stack web app that collects real-time data from sensors to record sleep events. It visualizes readings through interactive charts and uses machine learning to predict apnea patterns for each user.",
+      technologies: [
+        "ReactJS",
+        "MySQL",
+        "Python",
+        "Machine Learning",
+        "TailwindCSS",
+        "Chart.js",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/rflrydzn/apnealyze-pro",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design%20(2).mp4",
     },
   ],
   hackathons: [
