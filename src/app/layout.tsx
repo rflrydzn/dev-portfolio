@@ -27,6 +27,14 @@ export const metadata: Metadata = {
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Rafael%20Dizon.png",
+        width: 1200,
+        height: 630,
+        alt: "Rafael Dizon Portfolio Preview",
+      },
+    ],
   },
   robots: {
     index: true,
