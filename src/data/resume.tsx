@@ -26,12 +26,12 @@ export const DATA = {
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "rflrydzn@gmail.com",
+    tel: "+63 9612722088",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/rflrydzn",
         icon: Icons.github,
 
         navbar: true,
@@ -158,7 +158,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design.mp4",
+        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design%20(3).mp4",
     },
     {
       title: "G-Cam - Smart GCash Assistance System",
