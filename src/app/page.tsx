@@ -8,22 +8,15 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-import { db } from "@/lib/firebase";
-import { ref, get, set, update } from "firebase/database";
+import IncrementViews from "@/components/increment-views";
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default async function Page() {
-  const viewRef = ref(db, "views/portfolio");
-  const snapshot = await get(viewRef);
-  if (snapshot.exists()) {
-    const count = snapshot.val().count + 1;
-    await update(viewRef, { count });
-  } else {
-    await set(viewRef, { count: 1 });
-  }
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+      <IncrementViews />
+
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
