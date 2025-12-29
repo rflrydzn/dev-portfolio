@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Frontend Developer. I build modern web apps and turn ideas into useful, real-world products.",
   summary:
-    "I’m a self-taught developer who builds modern full-stack web applications that deliver real value to users. I’ve worked on a few freelance projects, creating practical solutions for real-world needs, but my true focus is on the frontend—crafting fast, responsive, and visually polished interfaces using React, Next.js, and TypeScript.",
+    "I’m a front-end developer who builds fast, high-performance, and responsive web interfaces. I turn designs into production-ready code using React, Next.js, and TypeScript, with a strong focus on usability and visual polish.",
   avatarUrl: "/me.jpg",
   skills: [
     "HTML",
@@ -19,13 +19,19 @@ export const DATA = {
     "React.js",
     "Next.js",
     "Typescript",
-    "SQL",
+    "Tailwind",
+    "PostgreSQL",
     "Context API",
     "Jotai",
     "Jest",
     "Supabase",
     "Firebase",
+    "Framer Motion",
+    "AWS",
     "REST API",
+    "Responsive Design",
+    "Generative AI",
+    "Machine Learning",
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -71,6 +77,19 @@ export const DATA = {
 
   work: [
     {
+      company: "GoWithFund",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Next.js Developer Volunteer",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/D4E0BAQGLxNQUkSAETg/company-logo_200_200/B4EZcSJ8jBHkAI-/0/1748356287177?e=2147483647&v=beta&t=p5TVzw7gDqxQikDNE7K92jI1I5LeF5j2UXp_QiJ3KC8",
+      start: "Oct 2025",
+      end: "Present",
+      description:
+        "I am the sole developer building a recruitment management system from scratch, handling both frontend and backend development using Next.js. I design system architecture, implement admin workflows, manage data models, and handle deployment and maintenance. The project focuses on scalable, real-world recruitment processes for multiple companies.",
+    },
+    {
       company: "Hooli Software",
       href: "https://atomic.finance",
       badges: [],
@@ -97,7 +116,32 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "M'Sweets (In Development ⚙️)",
+      title: "GoWithFund Careers (Development)",
+      href: "https://dev.gowithfund.org",
+      dates: "October 2025 - Present",
+      active: true,
+      description:
+        "A recruitment management system that integrates AMS and ATS to manage job postings, applications, and candidate workflows with an integrated job board and automated screening.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PayloadCMS",
+        "AWS",
+        "PostgreSQL",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://dev.gowithfund.org",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design-6.mp4",
+    },
+    {
+      title: "M'Sweets",
       href: "https://msweets.vercel.app",
       dates: "In Development ⚙️",
       active: true,
@@ -120,7 +164,7 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/rflrydzn/msweets",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image:
@@ -156,7 +200,7 @@ export const DATA = {
         {
           type: "Screenshots",
           href: "/screenshots/quizmaster",
-          icon: <Icons.github className="size-3" />,
+          icon: <Icons.screenshots className="size-3" />,
         },
       ],
       image: "",
@@ -192,39 +236,39 @@ export const DATA = {
         {
           type: "Screenshots",
           href: "/screenshots/gcam",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.screenshots className="size-3" />,
         },
       ],
       image: "",
       video:
         "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design%20(1).mp4",
     },
-    {
-      title: "Apnea-lyze",
-      href: "https://github.com/rflrydzn/apnealyze-pro",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "A full-stack web app that collects real-time data from sensors to record sleep events. It visualizes readings through interactive charts and uses machine learning to predict apnea patterns for each user.",
-      technologies: [
-        "ReactJS",
-        "MySQL",
-        "Python",
-        "Machine Learning",
-        "TailwindCSS",
-        "Chart.js",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/rflrydzn/apnealyze-pro",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design%20(2).mp4",
-    },
+    // {
+    //   title: "Apnea-lyze",
+    //   href: "https://github.com/rflrydzn/apnealyze-pro",
+    //   dates: "April 2023 - March 2024",
+    //   active: true,
+    //   description:
+    //     "A full-stack web app that collects real-time data from sensors to record sleep events. It visualizes readings through interactive charts and uses machine learning to predict apnea patterns for each user.",
+    //   technologies: [
+    //     "ReactJS",
+    //     "MySQL",
+    //     "Python",
+    //     "Machine Learning",
+    //     "TailwindCSS",
+    //     "Chart.js",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/rflrydzn/apnealyze-pro",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design%20(2).mp4",
+    // },
   ],
   hackathons: [
     {
