@@ -10,7 +10,6 @@ import React, {
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import HairstyleEditorBlog from "./modal";
-import { testimonials as testimonialdata } from "@/app/page";
 import ProjectBlogModal from "./modal";
 
 interface Testimonial {
