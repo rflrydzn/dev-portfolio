@@ -11,7 +11,7 @@ export const DATA = {
     "Frontend Developer. I build modern web apps and turn ideas into useful, real-world products.",
   summary:
     "I’m a front-end developer who builds fast, high-performance, and responsive web interfaces. I turn designs into production-ready code using React, Next.js, and TypeScript, with a strong focus on usability and visual polish.",
-  avatarUrl: "/pic.jpg",
+  avatarUrl: "/me.jpg",
   skills: [
     "HTML",
     "CSS",
