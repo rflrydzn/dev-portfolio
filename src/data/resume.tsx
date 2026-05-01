@@ -140,36 +140,61 @@ export const DATA = {
       video:
         "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design-6.mp4",
     },
+    // {
+    //   title: "M'Sweets",
+    //   href: "https://msweets.vercel.app",
+    //   dates: "In Development ⚙️",
+    //   active: true,
+    //   description:
+    //     "A sleek sweets ordering website where customers can explore delicious treats, customize their orders, and choose between pickup or delivery. Designed to provide a smooth and delightful online ordering experience for real customers.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "Supabase",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://msweets.vercel.app",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/rflrydzn/msweets",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image:
+    //     "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Screenshot%202025-10-23%20at%2011.55.12%20PM.png",
+    //   video: "",
+    // },
     {
-      title: "M'Sweets",
-      href: "https://msweets.vercel.app",
-      dates: "In Development ⚙️",
+      title: "Apnea-lyze Pro",
+      href: "https://automatic.chat",
       active: true,
       description:
-        "A sleek sweets ordering website where customers can explore delicious treats, customize their orders, and choose between pickup or delivery. Designed to provide a smooth and delightful online ordering experience for real customers.",
+        "A full-stack web app that collects real-time data from sensors to record sleep events. It visualizes readings through interactive charts and uses machine learning to predict apnea patterns for each user.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "Supabase",
+        "ReactJS",
+        "MySQL",
+        "Python",
+        "Machine Learning",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
+        "Chart.js",
       ],
       links: [
         {
           type: "Website",
-          href: "https://msweets.vercel.app",
+          href: "https://automatic.chat",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/rflrydzn/msweets",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
-      image:
-        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Screenshot%202025-10-23%20at%2011.55.12%20PM.png",
-      video: "",
+      image: "",
+      video:
+        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design%20(2).mp4",
     },
     {
       title: "QuizMaster",

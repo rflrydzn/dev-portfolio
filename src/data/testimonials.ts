@@ -1,73 +1,6 @@
 export const testimonials = [
   {
     quote:
-      "Perfect! The menu matches our colors and aesthetic. Sleek interface, intuitive, elevates guest experience. Simple yet exceptional work!",
-    name: "Jass",
-    designation: "Restaurant Manager",
-    src: "https://i.ibb.co/rG0CcvP0/IMG-9161.jpg",
-    project: {
-      title: "Ikebukuro Japanese Resto bar menu",
-      subtitle: "Client project · 2025",
-      tags: ["Mobile app", "UI/UX", "Branding"],
-      overview:
-        "Designed and built a branded digital menu app for a restaurant client. The interface reflects the restaurant's color palette and aesthetic, giving guests a premium ordering experience without needing a physical menu. Supports multiple categories, item descriptions, and pricing updates via a simple CMS.",
-      images: [
-        {
-          src: "https://i.ibb.co/SwLZZxw2/IMG-9161.jpg",
-          alt: "Picture with client",
-          label: "Client",
-        },
-        {
-          src: "https://i.ibb.co/r29ZCyt7/IMG-9812.png",
-          alt: "Menu",
-          label: "Menu",
-        },
-        {
-          src: "https://i.ibb.co/93hYvst2/IMG-9813.png",
-          alt: "Home",
-          label: "Home",
-        },
-        {
-          src: "https://i.ibb.co/5XtKy4yM/IMG-9814.png",
-          alt: "About",
-          label: "About",
-        },
-        {
-          src: "https://i.ibb.co/nNssqLmc/IMG-9815.png",
-          alt: "About",
-          label: "About",
-        },
-      ],
-      features: [
-        {
-          title: "Branded UI",
-          body: "Colors, fonts, and layout matched precisely to the restaurant's identity.",
-        },
-        {
-          title: "Category navigation",
-          body: "Guests browse starters, mains, drinks, and desserts with one tap.",
-        },
-        {
-          title: "CMS-backed",
-          body: "Staff update items, prices, and availability without touching code.",
-        },
-        {
-          title: "QR entry point",
-          body: "Guests scan a table QR code and land directly on the menu.",
-        },
-      ],
-      stackTags: [
-        "Next.js",
-        "TypeScript",
-        "Tailwind",
-        "PayloadCMS",
-        "Supabase",
-      ],
-      liveUrl: "",
-    },
-  },
-  {
-    quote:
       "The app is simple but looks premium, good experience it feels really fluid. AI is well-designed and straightforward",
     name: "Angelito",
     designation: "Entrepreneur",
@@ -149,6 +82,156 @@ export const testimonials = [
       liveUrl: "",
     },
   },
+  {
+    quote:
+      "Affordable, I like the landing page, easy to add and edit products, cute design.",
+    name: "Marife",
+    designation: "Home Baker",
+    src: "https://i.ibb.co/ccf068Kr/IMG-9978.jpg",
+
+    project: {
+      title: "M'Sweets",
+      subtitle: "Client project · 2024",
+      tags: ["Mobile app", "Inventory", "UI/UX"],
+      overview:
+        "Developed a full-stack pastry e-commerce platform featuring a visually appealing, modern frontend with intuitive user experience, integrated content management for easy product and site updates, and SMTP-based email functionality for order confirmations and customer notifications, delivering a scalable and practical solution that balances strong design with real-world e-commerce functionality.",
+      images: [
+        {
+          src: "https://i.ibb.co/5xkQPCXw/landing.png",
+          alt: "landing page",
+          label: "Landing Page",
+        },
+        {
+          src: "https://i.ibb.co/b56c0YML/IMG-0067.png",
+          alt: "email order",
+          label: "Email Order",
+        },
+        {
+          src: "https://i.ibb.co/y7s38BC/all-products.png",
+          alt: "all products",
+          label: "All Products Page",
+        },
+        {
+          src: "https://i.ibb.co/bR5YX8yC/product-info.png",
+          alt: "product info",
+          label: "Product Info Page",
+        },
+        {
+          src: "https://i.ibb.co/SXymxGFH/basket.png",
+          alt: "basket",
+          label: "Basket",
+        },
+        {
+          src: "https://i.ibb.co/ZpZ45z2P/billing-info.png",
+          alt: "billing information",
+          label: "Billing Information",
+        },
+        {
+          src: "https://i.ibb.co/JWGGxT1H/order-placed.png",
+          alt: "order success",
+          label: "Order Success",
+        },
+        {
+          src: "https://i.ibb.co/39nTC6tM/Screenshot-2026-05-01-at-4-23-55-PM.png",
+          alt: "content management",
+          label: "Content Management",
+        },
+        {
+          src: "https://i.ibb.co/ccf068Kr/IMG-9978.jpg",
+          alt: "Client",
+          label: "Client",
+        },
+      ],
+      features: [
+        {
+          title: "Email Notifications",
+          body: "Automatically sends order confirmations to baker through email.",
+        },
+        {
+          title: "Content Management System",
+          body: "AEdit and manage products, prices, and content easily.",
+        },
+        {
+          title: "Responsive Design",
+          body: "Works smoothly on mobile, tablet, and desktop.",
+        },
+        {
+          title: "Modern E-Commerce UI",
+          body: "Clean, responsive storefront for easy browsing.",
+        },
+      ],
+      stackTags: ["Next.js", "TypeScript", "Supabase", "Nodemailer"],
+      liveUrl: "",
+    },
+  },
+  {
+    quote:
+      "Perfect! The menu matches our colors and aesthetic. Sleek interface, intuitive, elevates guest experience. Simple yet exceptional work!",
+    name: "Jass",
+    designation: "Restaurant Manager",
+    src: "https://i.ibb.co/rG0CcvP0/IMG-9161.jpg",
+    project: {
+      title: "Ikebukuro Japanese Resto bar menu",
+      subtitle: "Client project · 2025",
+      tags: ["Mobile app", "UI/UX", "Branding"],
+      overview:
+        "Designed and built a branded digital menu app for a restaurant client. The interface reflects the restaurant's color palette and aesthetic, giving guests a premium ordering experience without needing a physical menu. Supports multiple categories, item descriptions, and pricing updates via a simple CMS.",
+      images: [
+        {
+          src: "https://i.ibb.co/SwLZZxw2/IMG-9161.jpg",
+          alt: "Picture with client",
+          label: "Client",
+        },
+        {
+          src: "https://i.ibb.co/r29ZCyt7/IMG-9812.png",
+          alt: "Menu",
+          label: "Menu",
+        },
+        {
+          src: "https://i.ibb.co/93hYvst2/IMG-9813.png",
+          alt: "Home",
+          label: "Home",
+        },
+        {
+          src: "https://i.ibb.co/5XtKy4yM/IMG-9814.png",
+          alt: "About",
+          label: "About",
+        },
+        {
+          src: "https://i.ibb.co/nNssqLmc/IMG-9815.png",
+          alt: "About",
+          label: "About",
+        },
+      ],
+      features: [
+        {
+          title: "Branded UI",
+          body: "Colors, fonts, and layout matched precisely to the restaurant's identity.",
+        },
+        {
+          title: "Category navigation",
+          body: "Guests browse starters, mains, drinks, and desserts with one tap.",
+        },
+        {
+          title: "CMS-backed",
+          body: "Staff update items, prices, and availability without touching code.",
+        },
+        {
+          title: "QR entry point",
+          body: "Guests scan a table QR code and land directly on the menu.",
+        },
+      ],
+      stackTags: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "PayloadCMS",
+        "Supabase",
+      ],
+      liveUrl: "",
+    },
+  },
+
   {
     quote:
       "All requirements done properly. Nice Filipino style design, Easy to navigate, readable text, and everything just makes sense.",
@@ -240,46 +323,4 @@ export const testimonials = [
       liveUrl: "",
     },
   },
-  // {
-  //   quote:
-  //     "All requirements done properly. Nice Filipino style design, Easy to navigate, readable text, and everything just makes sense.",
-  //   name: "Marife",
-  //   designation: "Home Baker",
-  //   src: "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Screenshot%202025-10-23%20at%2011.55.12%20PM.png",
-
-  //   project: {
-  //     title: "M'Sweets",
-  //     subtitle: "Client project · 2025",
-  //     tags: ["Mobile app", "Inventory", "UI/UX"],
-  //     overview:
-  //       "Developed an inventory and sales tracking app for a local retail store owner. The design direction was warm and welcoming — influenced by Filipino visual culture — with clear typography and simple navigation so non-technical staff could use it confidently from day one.",
-  //     images: [
-  //       {
-  //         src: "https://i.ibb.co/tPMH7PfB/IMG-4670.jpg",
-  //         alt: "Client",
-  //         label: "Client",
-  //       },
-  //     ],
-  //     features: [
-  //       {
-  //         title: "Inventory tracking",
-  //         body: "Add, edit, and remove items with stock level indicators.",
-  //       },
-  //       {
-  //         title: "Upsert data with excel",
-  //         body: "Upsert data by uploading excel file",
-  //       },
-  //       {
-  //         title: "QR Code Scanning",
-  //         body: "Instantly find product information through QR Code API",
-  //       },
-  //       {
-  //         title: "Filipino aesthetic",
-  //         body: "Warm tones and welcoming layout inspired by local design culture.",
-  //       },
-  //     ],
-  //     stackTags: ["Next.js", "TypeScript", "Supabase", "html5-qrcode"],
-  //     liveUrl: "",
-  //   },
-  // },
 ];
