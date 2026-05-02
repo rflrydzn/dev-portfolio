@@ -173,7 +173,7 @@ export const DATA = {
     // },
     {
       title: "Apnea-lyze Pro",
-      href: "https://automatic.chat",
+      href: "#",
       active: true,
       description:
         "A full-stack web app that collects real-time data from sensors to record sleep events. It visualizes readings through interactive charts and uses machine learning to predict apnea patterns for each user.",
@@ -186,11 +186,11 @@ export const DATA = {
         "Chart.js",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://automatic.chat",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
       ],
       image: "",
       video:
