@@ -97,42 +97,42 @@ export const testimonials = [
         "Developed a full-stack pastry e-commerce platform featuring a visually appealing, modern frontend with intuitive user experience, integrated content management for easy product and site updates, and SMTP-based email functionality for order confirmations and customer notifications, delivering a scalable and practical solution that balances strong design with real-world e-commerce functionality.",
       images: [
         {
-          src: "https://i.ibb.co/5xkQPCXw/landing.png",
+          src: "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/landing.png",
           alt: "landing page",
           label: "Landing Page",
         },
         {
-          src: "https://i.ibb.co/b56c0YML/IMG-0067.png",
+          src: "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/IMG_0067.PNG",
           alt: "email order",
           label: "Email Order",
         },
         {
-          src: "https://i.ibb.co/y7s38BC/all-products.png",
+          src: "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/all-products.png",
           alt: "all products",
           label: "All Products Page",
         },
         {
-          src: "https://i.ibb.co/bR5YX8yC/product-info.png",
+          src: "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/product-info.png",
           alt: "product info",
           label: "Product Info Page",
         },
         {
-          src: "https://i.ibb.co/SXymxGFH/basket.png",
+          src: "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/basket.png",
           alt: "basket",
           label: "Basket",
         },
         {
-          src: "https://i.ibb.co/ZpZ45z2P/billing-info.png",
+          src: "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/billing-info.png",
           alt: "billing information",
           label: "Billing Information",
         },
         {
-          src: "https://i.ibb.co/JWGGxT1H/order-placed.png",
+          src: "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/order-placed.png",
           alt: "order success",
           label: "Order Success",
         },
         {
-          src: "https://i.ibb.co/39nTC6tM/Screenshot-2026-05-01-at-4-23-55-PM.png",
+          src: "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Screenshot%202026-05-01%20at%204.23.55%20PM.png",
           alt: "content management",
           label: "Content Management",
         },
