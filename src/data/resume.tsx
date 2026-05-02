@@ -186,11 +186,11 @@ export const DATA = {
         "Chart.js",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://automatic.chat",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Source",
+          href: "https://github.com/rflrydzn/apnealyze-pro",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "",
       video:
