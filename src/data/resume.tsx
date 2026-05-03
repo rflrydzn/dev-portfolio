@@ -115,62 +115,63 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "GoWithFund Careers (Development)",
-      href: "https://dev.gowithfund.org",
-      dates: "October 2025 - Present",
-      active: true,
-      description:
-        "A recruitment management system that integrates AMS and ATS to manage job postings, applications, and candidate workflows with an integrated job board and automated screening.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PayloadCMS",
-        "AWS",
-        "PostgreSQL",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://dev.gowithfund.org",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design-6.mp4",
-    },
     // {
-    //   title: "M'Sweets",
-    //   href: "https://msweets.vercel.app",
-    //   dates: "In Development ⚙️",
+    //   title: "GoWithFund Careers (Development)",
+    //   href: "https://dev.gowithfund.org",
+    //   dates: "October 2025 - Present",
     //   active: true,
     //   description:
-    //     "A sleek sweets ordering website where customers can explore delicious treats, customize their orders, and choose between pickup or delivery. Designed to provide a smooth and delightful online ordering experience for real customers.",
+    //     "A recruitment management system that integrates AMS and ATS to manage job postings, applications, and candidate workflows with an integrated job board and automated screening.",
     //   technologies: [
     //     "Next.js",
     //     "Typescript",
-    //     "Supabase",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
+    //     "PayloadCMS",
+    //     "AWS",
+    //     "PostgreSQL",
     //   ],
     //   links: [
     //     {
     //       type: "Website",
-    //       href: "https://msweets.vercel.app",
+    //       href: "https://dev.gowithfund.org",
     //       icon: <Icons.globe className="size-3" />,
     //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/rflrydzn/msweets",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
     //   ],
-    //   image:
-    //     "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Screenshot%202025-10-23%20at%2011.55.12%20PM.png",
-    //   video: "",
+    //   image: "",
+    //   video:
+    //     "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/Untitled%20design-6.mp4",
     // },
+
+    {
+      title: "M'Sweets",
+      href: "https://msweets.vercel.app",
+      dates: "2025",
+      active: true,
+      description:
+        "A sleek sweets ordering website where customers can explore delicious treats, customize their orders, and choose between pickup or delivery. Designed to provide a smooth and delightful online ordering experience for real customers.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Supabase",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://msweets.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/rflrydzn/msweets",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://qrqdxhfkmxykojrtwugp.supabase.co/storage/v1/object/public/uploads/msweets-demi.mp4",
+    },
     {
       title: "Apnea-lyze Pro",
       href: "#",
