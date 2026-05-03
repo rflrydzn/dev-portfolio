@@ -153,8 +153,9 @@ export const DATA = {
         "Typescript",
         "Supabase",
         "TailwindCSS",
-        "Shadcn UI",
+        "SMTP",
         "Magic UI",
+        "ShadCN",
       ],
       links: [
         {
